@@ -9,12 +9,14 @@ public class Main {
         curso1.setDescrição("descrição curso java");
         curso1.setCargaHoraria(8);
 
+        Conteudo conteudo = new Curso();
+
         Curso curso2 = new Curso();
         curso2.setTitulo("curso js");
         curso2.setDescrição("descrição curso js");
         curso2.setCargaHoraria(8);
 
-        Mentoria mentoria = new Mentoria();
+         mentoria = new Mentoria();
         mentoria.setTitulo("mentoria java");
         mentoria.setDescrição("descrição mentoria java");
         mentoria.setData(LocalDate.now());
